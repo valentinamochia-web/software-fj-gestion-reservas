@@ -1,0 +1,84 @@
+2026-11-22 18:22:50,783 | INFO     | Registrar cliente OK
+2026-11-22 18:22:50,783 | INFO     | Fin de operación: Registrar cliente
+2026-11-22 18:22:50,783 | ERROR    | Registrar cliente FALLÓ: Correo con formato inválido: 'luis-correo'. (ClienteInvalidoError)
+2026-11-22 18:22:50,783 | INFO     | Fin de operación: Registrar cliente
+2026-11-22 18:22:50,783 | INFO     | Registrar cliente OK
+2026-11-22 18:22:50,783 | INFO     | Fin de operación: Registrar cliente
+2026-11-22 18:22:50,783 | ERROR    | Registrar cliente FALLÓ: El documento del cliente es obligatorio. (ParametroFaltanteError)
+2026-11-22 18:22:50,783 | INFO     | Fin de operación: Registrar cliente
+2026-11-22 18:22:50,783 | INFO     | Crear servicio ReservaSala OK
+2026-11-22 18:22:50,783 | INFO     | Fin de operación: Crear servicio ReservaSala
+2026-11-22 18:22:50,783 | INFO     | Crear servicio AlquilerEquipo OK
+2026-11-22 18:22:50,783 | INFO     | Fin de operación: Crear servicio AlquilerEquipo
+2026-11-22 18:22:50,783 | INFO     | Crear servicio AsesoriaEspecializada OK
+2026-11-22 18:22:50,783 | INFO     | Fin de operación: Crear servicio AsesoriaEspecializada
+2026-11-22 18:22:50,783 | ERROR    | Crear servicio AlquilerEquipo FALLÓ: La tarifa por hora debe ser un número positivo. (ServicioInvalidoError)
+2026-11-22 18:22:50,783 | INFO     | Fin de operación: Crear servicio AlquilerEquipo
+2026-11-22 18:22:50,783 | INFO     | Reserva RES-009 confirmada.
+2026-11-22 18:22:50,784 | INFO     | Intento de procesamiento de RES-009 -> estado PROCESADA
+2026-11-22 18:22:50,784 | INFO     | Crear y procesar reserva OK
+2026-11-22 18:22:50,784 | INFO     | Fin de operación: Crear y procesar reserva
+2026-11-22 18:22:50,784 | INFO     | Reserva RES-010 confirmada.
+2026-11-22 18:22:50,784 | INFO     | Intento de procesamiento de RES-010 -> estado PROCESADA
+2026-11-22 18:22:50,784 | INFO     | Crear y procesar reserva OK
+2026-11-22 18:22:50,784 | INFO     | Fin de operación: Crear y procesar reserva
+2026-11-22 18:22:50,784 | ERROR    | Crear y procesar reserva FALLÓ: No se pudo confirmar la reserva RES-011. (ReservaInvalidaError) | causa: ServicioInvalidoError('Una asesoría no puede durar más de 8 horas.')
+2026-11-22 18:22:50,784 | INFO     | Fin de operación: Crear y procesar reserva
+2026-11-22 18:22:50,784 | ERROR    | Crear y procesar reserva FALLÓ: No se pudo confirmar la reserva RES-012. (ReservaInvalidaError) | causa: ServicioNoDisponibleError("El servicio 'Videobeam' no está disponible.")
+2026-11-22 18:22:50,784 | INFO     | Fin de operación: Crear y procesar reserva
+2026-11-22 18:22:50,784 | ERROR    | Crear y procesar reserva FALLÓ: La reserva requiere un cliente válido. (ReservaInvalidaError)
+2026-11-22 18:22:50,784 | INFO     | Fin de operación: Crear y procesar reserva
+2026-11-22 18:22:50,784 | INFO     | Reserva RES-014 confirmada.
+2026-11-22 18:22:50,784 | INFO     | Crear y procesar reserva OK
+2026-11-22 18:22:50,784 | INFO     | Fin de operación: Crear y procesar reserva
+2026-11-22 18:22:50,784 | INFO     | Reserva RES-014 cancelada.
+2026-11-22 18:22:50,784 | INFO     | Cancelar reserva RES-014 OK
+2026-11-22 18:22:50,784 | INFO     | Fin de operación: Cancelar reserva RES-014
+2026-11-22 18:22:50,784 | ERROR    | Cancelar reserva RES-014 FALLÓ: No se puede cancelar una reserva en estado CANCELADA. (OperacionNoPermitidaError)
+2026-11-22 18:22:50,784 | INFO     | Fin de operación: Cancelar reserva RES-014
+2026-11-22 18:22:50,784 | INFO     | Reserva RES-015 confirmada.
+2026-11-22 18:22:50,784 | INFO     | Intento de procesamiento de RES-015 -> estado FALLIDA
+2026-11-22 18:22:50,784 | ERROR    | Crear y procesar reserva FALLÓ: Impuesto y descuento deben estar entre 0 y 1. (CalculoInconsistenteError)
+2026-11-22 18:22:50,784 | INFO     | Fin de operación: Crear y procesar reserva
+2026-11-22 18:23:02,242 | INFO     | Registrar cliente OK
+2026-11-22 18:23:02,243 | INFO     | Fin de operación: Registrar cliente
+2026-11-22 18:23:02,243 | ERROR    | Registrar cliente FALLÓ: Correo con formato inválido: 'luis-correo'. (ClienteInvalidoError)
+2026-11-22 18:23:02,243 | INFO     | Fin de operación: Registrar cliente
+2026-11-22 18:23:02,243 | INFO     | Registrar cliente OK
+2026-11-22 18:23:02,243 | INFO     | Fin de operación: Registrar cliente
+2026-11-22 18:23:02,243 | ERROR    | Registrar cliente FALLÓ: El documento del cliente es obligatorio. (ParametroFaltanteError)
+2026-11-22 18:23:02,243 | INFO     | Fin de operación: Registrar cliente
+2026-11-22 18:23:02,243 | INFO     | Crear servicio ReservaSala OK
+2026-11-22 18:23:02,243 | INFO     | Fin de operación: Crear servicio ReservaSala
+2026-11-22 18:23:02,243 | INFO     | Crear servicio AlquilerEquipo OK
+2026-11-22 18:23:02,243 | INFO     | Fin de operación: Crear servicio AlquilerEquipo
+2026-11-22 18:23:02,243 | INFO     | Crear servicio AsesoriaEspecializada OK
+2026-11-22 18:23:02,243 | INFO     | Fin de operación: Crear servicio AsesoriaEspecializada
+2026-11-22 18:23:02,243 | ERROR    | Crear servicio AlquilerEquipo FALLÓ: La tarifa por hora debe ser un número positivo. (ServicioInvalidoError)
+2026-11-22 18:23:02,243 | INFO     | Fin de operación: Crear servicio AlquilerEquipo
+2026-11-22 18:23:02,243 | INFO     | Reserva RES-009 confirmada.
+2026-11-22 18:23:02,243 | INFO     | Intento de procesamiento de RES-009 -> estado PROCESADA
+2026-11-22 18:23:02,243 | INFO     | Crear y procesar reserva OK
+2026-11-22 18:23:02,243 | INFO     | Fin de operación: Crear y procesar reserva
+2026-11-22 18:23:02,243 | INFO     | Reserva RES-010 confirmada.
+2026-11-22 18:23:02,243 | INFO     | Intento de procesamiento de RES-010 -> estado PROCESADA
+2026-11-22 18:23:02,243 | INFO     | Crear y procesar reserva OK
+2026-11-22 18:23:02,243 | INFO     | Fin de operación: Crear y procesar reserva
+2026-11-22 18:23:02,243 | ERROR    | Crear y procesar reserva FALLÓ: No se pudo confirmar la reserva RES-011. (ReservaInvalidaError) | causa: ServicioInvalidoError('Una asesoría no puede durar más de 8 horas.')
+2026-11-22 18:23:02,243 | INFO     | Fin de operación: Crear y procesar reserva
+2026-11-22 18:23:02,243 | ERROR    | Crear y procesar reserva FALLÓ: No se pudo confirmar la reserva RES-012. (ReservaInvalidaError) | causa: ServicioNoDisponibleError("El servicio 'Videobeam' no está disponible.")
+2026-11-22 18:23:02,243 | INFO     | Fin de operación: Crear y procesar reserva
+2026-11-22 18:23:02,243 | ERROR    | Crear y procesar reserva FALLÓ: La reserva requiere un cliente válido. (ReservaInvalidaError)
+2026-11-22 18:23:02,243 | INFO     | Fin de operación: Crear y procesar reserva
+2026-11-22 18:23:02,243 | INFO     | Reserva RES-014 confirmada.
+2026-11-22 18:23:02,243 | INFO     | Crear y procesar reserva OK
+2026-11-22 18:23:02,243 | INFO     | Fin de operación: Crear y procesar reserva
+2026-11-22 18:23:02,243 | INFO     | Reserva RES-014 cancelada.
+2026-11-22 18:23:02,243 | INFO     | Cancelar reserva RES-014 OK
+2026-11-22 18:23:02,243 | INFO     | Fin de operación: Cancelar reserva RES-014
+2026-11-22 18:23:02,243 | ERROR    | Cancelar reserva RES-014 FALLÓ: No se puede cancelar una reserva en estado CANCELADA. (OperacionNoPermitidaError)
+2026-11-22 18:23:02,243 | INFO     | Fin de operación: Cancelar reserva RES-014
+2026-11-22 18:23:02,243 | INFO     | Reserva RES-015 confirmada.
+2026-11-22 18:23:02,243 | INFO     | Intento de procesamiento de RES-015 -> estado FALLIDA
+2026-11-22 18:23:02,243 | ERROR    | Crear y procesar reserva FALLÓ: Impuesto y descuento deben estar entre 0 y 1. (CalculoInconsistenteError)
+2026-11-22 18:23:02,243 | INFO     | Fin de operación: Crear y procesar reserva
